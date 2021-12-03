@@ -1,0 +1,24 @@
+.record-area {
+    width: 800px;
+    height: 500px;
+    background-color: lightgreen;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.record-list {
+    display: flex;
+    align-items: center;
+
+}
+
+.record-list>div {
+    margin: 5px;
+}
+
+.balloon {
+    width: 500px;
+    min-height: 100px;
+    overflow: hidden;
+    background-color: white;
+}
